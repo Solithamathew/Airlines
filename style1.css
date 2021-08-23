@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(rgba(106, 86, 192, 0.5),rgba(0,0,0,0.5)),url(sky.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.booking-form-box
+{
+    max-width: 350px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+
+}
+.radio-btn
+{
+margin: 0 20px;
+}
+
+
+.radio-btn .btn:checked::after
+{
+   content: '';
+   background-color: #000;
+   transition: 0.5s; 
+}
+.radio-btn span
+{
+    color: rgb(15, 15, 15);
+    margin-right: 0px;
+    font-size:15px;
+}
+.booking-form
